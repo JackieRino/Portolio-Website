@@ -1,8 +1,6 @@
 # Portolio-Website
-Front-end portfolio showcasing HTML, CSS, and Tailwind CSS projects. Work in progress
+A Living portfolio built while learning front-end development.
+This site contains hands-on exercises, experiments, and small projects created as i explore HTML, CSS, and JavaScript.
 
-Features #fully responsive #clean and simple design #built with tailwind css for easy styling
-
-Tech Stack #HTML #CSS #Tailwind CSS
-
-Status Early-stage project, still under development. More sections and projects will be added soon.
+Each page represents a concept learned and applied, documenting my progression from fundamentals to more advanced implementations. 
+The goal is to demonstrate consistency, curiosity, and the ability to turn leaning into practical results.
