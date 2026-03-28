@@ -120,3 +120,135 @@ h1 {
 hr {
     margin : 30px 20px;
 }
+
+/* End of Home Page Styles */
+
+/* Project page */
+
+.projects-body {
+    background-color: beige;
+    color: maroon;
+}
+
+/* link */
+.project-link {
+    color: rgb(253, 115, 3);
+    text-decoration: none;
+}
+
+.project-link:visited {
+    color:black
+}
+
+.project-link:hover, .project-link:focus, .project-link:active {
+    color: white;
+}
+
+/* end of link css */
+
+/* learning projects css */
+
+.lp {
+display:grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+gap: 20px;
+border: 2px solid black;
+padding: 20px;
+margin: 20px;
+text-align: center;
+
+
+}
+
+/* grid: activated the grid layout
+grid-template-column: 2= # of columns of equal width
+gap: space between the boxes
+ */
+
+ /* tried to display my projects in grid form. failed. */
+
+ /* LEARNING PROJECTS CSS */
+
+ .form {
+    background-color: lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+
+}
+h1{
+    color:inherit;
+}
+
+/* Navigation styling */
+
+
+
+
+
+
+.form-nav{
+    max-width: 400px;
+    height: 4rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-form li{
+    display: inline;
+    margin-right: 2rem;
+
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input:valid, textarea:valid, select:valid {
+    border-color: #28a745;
+}
+
+input:invalid, textarea:invalid, select:invalid {
+    border-color: #dc3545;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
