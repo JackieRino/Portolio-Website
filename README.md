@@ -79,3 +79,15 @@ March 28 2026 --UPDATE
 * CSS
 * Tailwind CSS
 
+March 30 2026--UPDATE
+
+##What I Did
+
+*refined HTML syntax, ids and classes for easier css style targeting
+*Linked github projects to portfolio
+
+##What i'll Add
+
+<!-- * i have projects on git hub. link those to the website. so that i dont over pack the website. create a folder to house 3 major original ideas and link then to portfolio -->
+
+<!-- fix the broken links  -->
