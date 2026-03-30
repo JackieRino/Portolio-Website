@@ -123,6 +123,10 @@ hr {
 
 /* End of Home Page Styles */
 
+
+
+
+
 /* Project page */
 
 .projects-body {
@@ -144,6 +148,7 @@ hr {
     color: white;
 }
 
+/* confrim that pseudo states respond !! */
 /* end of link css */
 
 /* learning projects css */
@@ -168,6 +173,18 @@ gap: space between the boxes
 
  /* tried to display my projects in grid form. failed. */
 
+
+ #learning-projects,#original-ideas {
+   
+    display: none; 
+ }
+
+ #learning-projects:target, #original-ideas:target {
+    display: block; 
+ }
+
+ /* added display: none and display:block to :target psuedo class so that the selected id elements only show up on the page when their links have been clicked */
+
  /* LEARNING PROJECTS CSS */
 
  .form {
@@ -180,12 +197,22 @@ h1{
     color:inherit;
 }
 
+.projects-intro {
+    color:whitesmoke;
+    display:flex;
+    margin:auto;
+    justify-items: space-around;
+    align-items:center;
+    padding:10px;
+
+}
+/* trying to justify conent in the center */
 /* Navigation styling */
 
 
 
 
-
+/* LEARNING PROJECT #1 */
 
 .form-nav{
     max-width: 400px;
@@ -252,3 +279,6 @@ input:invalid, textarea:invalid, select:invalid {
     font-size: 0.875rem;
     margin-top: 0.25rem;
 }
+
+/* end of learning project #1 css */
+
