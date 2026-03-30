@@ -130,8 +130,8 @@ hr {
 /* Project page */
 
 .projects-body {
-    background-color: beige;
-    color: maroon;
+
+    color:whitesmoke;
 }
 
 /* link */
@@ -166,6 +166,18 @@ text-align: center;
 
 }
 
+.lp-one:hover, .lp-two:hover, .lp-three:hover, .lp-four:hover, .lp-five:hover {
+    color:rgb(253, 115, 3);
+}
+
+.lp-one:active, .lp-two:active, .lp-three:active, .lp-four:active, .lp-five:active {
+    color: yellow;
+}
+
+.lp-one:visited, .lp-two:visited, .lp-three:visited, .lp-four:visited, .lp-five:visited {
+    color: black;
+}
+
 /* grid: activated the grid layout
 grid-template-column: 2= # of columns of equal width
 gap: space between the boxes
@@ -197,13 +209,13 @@ h1{
     color:inherit;
 }
 
-.projects-intro {
-    color:whitesmoke;
+/* .projects-intro { */
+    /* color:whitesmoke;
     display:flex;
     margin:auto;
     justify-items: space-around;
     align-items:center;
-    padding:10px;
+    padding:10px; */
 
 }
 /* trying to justify conent in the center */
