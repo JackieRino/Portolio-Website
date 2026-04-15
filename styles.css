@@ -45,12 +45,18 @@ body{
     margin: auto;
 }
 
-#profile-image {
-    border-radius: 100px;
+#profile-image { 
+    border-radius: 25px;
+    margin-left: auto;
+    max-width: 20rem;
+    display: flex;
+    /* justify-content: flex-end; */
+
+    /* border-radius: 100px;
     display: flex; 
     justify-content: right; 
     margin: 5px; 
-    float: right;
+    float: right; */
 
 }
 
@@ -106,10 +112,10 @@ h2 {
     
 }
 
-h1 {
-    color:rgb(253, 115, 3);
-    display: ;
-    justify-content: center;
+#home-page-h1 {
+   font-size:5rem;
+   color:inherit;
+   font-weight: inherit;
 
 }
 
@@ -205,9 +211,7 @@ gap: space between the boxes
     line-height: 1.6;
 
 }
-h1{
-    color:inherit;
-}
+
 
 /* .projects-intro { */
     /* color:whitesmoke;
